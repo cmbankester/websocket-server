@@ -1,0 +1,11 @@
+{
+  "name": "timenator-api",
+  "version": "1.0.0",
+  "description": "API and websocket connection provider for Timenator clients",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Christian Michael Paul Bankester <cbankester@immense.net>",
+  "dependencies": {
+    "websocket": "^1.0.22"
+  }
+}
