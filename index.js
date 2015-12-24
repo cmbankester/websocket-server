@@ -1,5 +1,8 @@
+"use strict";
 const app = require('http').createServer(handler);
-require('./lib/api/websocket-server')(app);
+const WebSocketServer = require('./lib/api/websocket-server');
+
+const webSocketServer = new WebSocketServer(app);
 
 function handler(req, res) {
   res.writeHead(200);

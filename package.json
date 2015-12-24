@@ -6,6 +6,7 @@
   "scripts": {},
   "author": "Christian Michael Paul Bankester <cbankester@immense.net>",
   "dependencies": {
+    "ramda": "^0.19.0",
     "websocket": "^1.0.22"
   }
 }
