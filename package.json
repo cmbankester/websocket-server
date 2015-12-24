@@ -6,6 +6,8 @@
   "scripts": {},
   "author": "Christian Michael Paul Bankester <cbankester@immense.net>",
   "dependencies": {
+    "koa": "^1.1.2",
+    "koa-router": "^5.3.0",
     "ramda": "^0.19.0",
     "websocket": "^1.0.22"
   }
